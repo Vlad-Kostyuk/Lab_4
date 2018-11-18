@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-	//створення об'єктів
+	// Create object.
 	Helicopter A("Mi24", 25, 345.45, 12, "Houston");
 
-	// виведення 
+	// Output.
 	cout << A.getName() << endl;
 	cout << A.getNumberOfPassengers() << endl;
 	cout << A.getMaxV() << endl;

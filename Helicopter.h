@@ -4,7 +4,7 @@
 using namespace std;
 
 class Helicopter {
-	// оголошення змін
+	// Declare fields.
 protected:
 
 	int h ;
@@ -22,10 +22,10 @@ private:
 	double max_V;
 
 public:
-	//оголошення конструктура і деконструктора
+	// Declare construct.
 	Helicopter(string HelicopterName, int NumberOfPassengers,  double maxV, int Height, string NamePilot)
 	{
-		//конструктор
+		
 		this->Name = HelicopterName;
 		this->number_of_passengers = NumberOfPassengers;
 		this->max_V = maxV;
@@ -36,12 +36,12 @@ public:
 
 	~Helicopter()
 	{
-		//деконструктора
+		
 		printf("flight ended\n");
 	}
 	
 
-	// оголошення функцій(доступ до змін)
+	//  Declare methos.
 	string getName()
 	{
 		return this->Name;
