@@ -7,7 +7,7 @@ class Helicopter {
 	// Declare fields.
 protected:
 
-	int h ;
+	int height;
 	string name_pilot;
 	
 public:
@@ -19,24 +19,24 @@ private:
 
 	string Name;
 	int number_of_passengers;
-	double max_V;
+	double max_speed;
 
 public:
 	// Declare construct.
-	Helicopter(string HelicopterName, int NumberOfPassengers,  double maxV, int Height, string NamePilot)
+	Helicopter(string HelicopterName, int NumberOfPassengers,  double maxSpeed, int Height, string NamePilot)
 	{
 		
 		this->Name = HelicopterName;
 		this->number_of_passengers = NumberOfPassengers;
-		this->max_V = maxV;
-		this->h = Height;
+		this->max_speed = maxSpeed;
+		this->height = Height;
 		this->name_pilot = NamePilot;
 		printf(" flight started\n");
 	}
 
 	~Helicopter()
 	{
-		
+	
 		printf("flight ended\n");
 	}
 	
@@ -54,7 +54,7 @@ public:
 
 	double getMaxV()
 	{
-		return this->max_V;
+		return this->max_speed;
 	}
 
 	int getTable()
@@ -67,9 +67,9 @@ public:
 		return this->type;
 	}
 
-	int getH()
+	int getHeight()
 	{
-		return this->h;
+		return this->height;
 	}
 
 	string getNamePilot()

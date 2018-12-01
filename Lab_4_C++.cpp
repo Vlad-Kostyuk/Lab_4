@@ -15,7 +15,7 @@ int main()
 	cout << A.getMaxV() << endl;
 	cout << A.getTable() << endl;
 	cout << A.getType() << endl;
-	cout << A.getH() << endl;
+	cout << A.getHeight() << endl;
 	cout << A.getNamePilot() << endl;
 	
 	Helicopter B("Mi2", 15, 240.98, 12, "Houston");
@@ -24,7 +24,7 @@ int main()
 	cout << B.getMaxV() << endl;
 	cout << B.getTable() << endl;
 	cout << B.getType() << endl;
-	cout << B.getH() << endl;
+	cout << B.getHeight() << endl;
 	cout << B.getNamePilot() << endl;
 	
 
@@ -34,7 +34,7 @@ int main()
 	cout << C.getMaxV() << endl;
 	cout << C.getTable() << endl;
 	cout << C.getType() << endl;
-	cout << C.getH() << endl;
+	cout << C.getHeight() << endl;
 	cout << C.getNamePilot() << endl;
 }
 
